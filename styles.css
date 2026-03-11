@@ -79,6 +79,8 @@ nav a { padding: 8px 14px; border-radius: var(--radius); color: var(--dark); fon
 nav a:hover, nav a.active { background: var(--gray-light); color: var(--green-dark); text-decoration: none; }
 .nav-cta { background: var(--green-mid) !important; color: var(--white) !important; border-radius: var(--radius) !important; }
 .nav-cta:hover { background: var(--green-dark) !important; }
+.nav-phone a { color: var(--green-dark) !important; font-weight: 700; font-size: 0.95rem; white-space: nowrap; text-decoration: none !important; }
+.nav-phone a:hover { color: var(--green-mid) !important; text-decoration: none !important; }
 .menu-toggle { display: none; background: none; border: none; font-size: 1.5rem; cursor: pointer; color: var(--green-dark); }
 
 /* Hero */
